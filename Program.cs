@@ -53,8 +53,30 @@ namespace SendEmailCSharp
             var msg = new SendGridMessage();
             msg.SetFrom(new EmailAddress("dx@sendgrid.com", "FromName"));
             msg.AddTo(new EmailAddress("dx@sendgrid.com", "ToName"));
-            msg.SetTemplateId("d-1edc1791a1fd49dcbbcc9c8eae276338"); // template id from sendgrid | example.html
 
+            
+            var emails = new List<EmailAddress>
+            {
+                new EmailAddress("test4@example.com", "Example User4"),
+                new EmailAddress("test5@example.com", "Example User5")
+            };
+            // add a list of e-mails to send
+            msg.AddTos(emails);
+            
+            // copy e-mails to send
+            msg.AddCc(new EmailAddress("test6@example.com", "Example User6"));
+            emails = new List<EmailAddress>
+            {
+                new EmailAddress("test8@example.com", "Example User8"),
+                new EmailAddress("test9@example.com", "Example User9")
+            };
+            // add a list of copy e-mails to send
+            msg.AddCcs(emails);
+
+            // add Cco (blind copy)
+            msg.AddBcc(new EmailAddress("test10example.com", "Example User10"));
+
+            msg.SetTemplateId("d-1edc1791a1fd49dcbbcc9c8eae276338"); // template id from sendgrid | example.html
             msg.SetTemplateData(dynamicTemplateData);
             var response = await client.SendEmailAsync(msg);
 
