@@ -1,0 +1,11 @@
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\bin\Debug\netcoreapp2.1\SendEmailCSharp.deps.json
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\bin\Debug\netcoreapp2.1\SendEmailCSharp.runtimeconfig.json
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\bin\Debug\netcoreapp2.1\SendEmailCSharp.runtimeconfig.dev.json
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\bin\Debug\netcoreapp2.1\SendEmailCSharp.dll
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\bin\Debug\netcoreapp2.1\SendEmailCSharp.pdb
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\obj\Debug\netcoreapp2.1\SendEmailCSharp.csprojAssemblyReference.cache
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\obj\Debug\netcoreapp2.1\SendEmailCSharp.csproj.CoreCompileInputs.cache
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\obj\Debug\netcoreapp2.1\SendEmailCSharp.AssemblyInfoInputs.cache
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\obj\Debug\netcoreapp2.1\SendEmailCSharp.AssemblyInfo.cs
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\obj\Debug\netcoreapp2.1\SendEmailCSharp.dll
+C:\Users\patrick.lima\documents\projects\SendEmailCSharp\obj\Debug\netcoreapp2.1\SendEmailCSharp.pdb
